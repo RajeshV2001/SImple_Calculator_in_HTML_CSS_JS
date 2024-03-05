@@ -7,6 +7,13 @@ function clr(){
     document.getElementById('result').value=""
 }
 
+function del(){
+
+    let num=document.getElementById('result');
+    num.value=num.value.slice(0,-1)
+}
+
+
 function solve(){
 
     try{
